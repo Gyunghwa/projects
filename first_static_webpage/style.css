@@ -1,0 +1,88 @@
+:root {
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+header {
+  position: fixed;
+  background-color: lightsteelblue;
+  display: flex;
+  justify-content: center;
+  top: 0%;
+  width: 100%;
+  height: 75px;
+}
+
+.diary {
+  font-size: 40px;
+  padding: 17px 13px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  padding: 60px;
+}
+
+.main ul {
+  display: flex;
+  padding: 30px 40px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.box li {
+  display: flex;
+  padding: 10px;
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  background-color: rgb(176, 196, 222, 0.4);
+}
+
+li {
+  list-style: none;
+}
+
+.photo {
+  width: 200px;
+  height: 170px;
+  border-radius: 5%;
+}
+
+footer ol {
+  display: flex;
+  justify-content: center;
+}
+
+.footer li {
+  display: flex;
+  list-style: none;
+  padding: 8px 12px;
+  align-items: center;
+}
+
+#insta {
+  font-size: 30px;
+  color: black;
+}
